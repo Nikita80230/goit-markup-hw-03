@@ -65,11 +65,9 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-}
-.logo-web {
-  /*font-family: "Raleway", sans-serif;*/
   color: var(--accent-color);
 }
+
 .logo-studio {
   /*font-family: "Raleway", sans-serif;*/
   color: #000;
@@ -84,6 +82,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-list {
@@ -129,7 +128,11 @@ ul {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+
   color: var(--text-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-contacts-list .header-contact + .header-contact {
   margin-left: 50px;
@@ -141,6 +144,7 @@ ul {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+
   color: var(--accent-color);
 }
 
@@ -257,7 +261,7 @@ ul {
   display: flex;
   align-items: center;
   text-align: left;
-  padding: 0;
+  padding-bottom: 94px;
 }
 
 .skills-list .skill + .skill {
@@ -265,8 +269,9 @@ ul {
 }
 
 .skill-photo {
-  width: 370px;
-  height: 294px;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 /*________OUR TEAM________*/
 
@@ -274,7 +279,6 @@ ul {
   display: flex;
   display: block;
   background-color: #f5f4fa;
-  margin-top: 94px;
 }
 .our-team-title {
   margin: 0 auto 50px;
@@ -303,10 +307,14 @@ ul {
   margin-left: 30px;
 }
 
+.our-team-text {
+  padding: 30px 0;
+}
+
 .our-team-mate-photo {
-  width: 270px;
-  height: 260px;
-  margin: 0 0 30px 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .our-team-mate-name {
@@ -324,7 +332,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin: 0 0 30px 0;
 }
 /*________FOOTER_________*/
 .footer {
@@ -428,7 +435,7 @@ ul {
 }
 
 .projects-text {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .project-photo {
