@@ -21,6 +21,7 @@ body {
   padding: 0;
 }
 .link {
+  display: block;
   text-decoration: none;
   margin: 0;
 }
@@ -65,7 +66,11 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+
   color: var(--accent-color);
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-studio {
@@ -228,22 +233,30 @@ ul {
 }
 
 .about-us-character {
-  margin: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--main-title-color);
 }
 .about-us-text {
   margin: 0;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--text-color);
 }
 /*________SKILLS________*/
+
+.skills {
+  padding-bottom: 94px;
+}
 
 .skills-title {
   margin-top: 0;
@@ -261,7 +274,6 @@ ul {
   display: flex;
   align-items: center;
   text-align: left;
-  padding-bottom: 94px;
 }
 
 .skills-list .skill + .skill {
@@ -338,6 +350,13 @@ ul {
   background-color: var(--background-title-color);
   padding: 60px 0;
 }
+.footer-logo {
+  padding: 0;
+}
+
+.container address {
+  margin-top: 20px;
+}
 
 .footer-address {
   font-style: normal;
@@ -366,7 +385,7 @@ ul {
 .footer-contacts-list {
   display: block;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 /*========PORTFOLIO========*/
@@ -395,11 +414,15 @@ ul {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--main-title-color);
+
   cursor: pointer;
   background-color: var(--our-team-color);
+
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
 }
 
 .current-button {
